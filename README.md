@@ -1,7 +1,7 @@
 # chat
 
-Exemplo de chat em **[nodeJS](https://nodejs.org/)
-usando **[express](http://expressjs.com/) **[socketIO](http://socket.io/)
+Exemplo de chat em [nodeJS](https://nodejs.org/)
+usando [express](http://expressjs.com/) [socketIO](http://socket.io/)
 
 
 #Rodando
@@ -11,6 +11,6 @@ cd chat && npm istall
 
 cd app && npm install && bower install
 
-volte para */chat em seguida node(mon) app.js
+volte para /chat em seguida node(mon) app.js
 
 * **Autor**: [Itacir Ferreira Pompeu](https://github.com/pompeu) (Pompeu)
