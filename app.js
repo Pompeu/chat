@@ -14,8 +14,10 @@ app.get('/', function(req, res){
 io.on('connection', function(socket){
   'use strict';
   socket.on('chat message', function(msg){
-    io.emit('chat message', msg);
-  });
+    var json = JSON.parse(msg);
+    io.emit('chat message',
+      JSON.parse(msg));
+  });//json.user + ' Say '+ json.msg + ' At '+json.date
 });
 
 http.listen(3000, function(){
